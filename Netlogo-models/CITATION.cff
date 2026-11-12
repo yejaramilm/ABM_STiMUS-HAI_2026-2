@@ -1,0 +1,45 @@
+abstract: " STiMUS-HAI (Stigmergic\u2013Mutualistic IMOI Model, Human-AI extension)\
+  \ is an agent-based model of teamwork in socio-technical systems where human and\
+  \ AI contributors collaborate through shared digital artefacts \u2014 wiki pages,\
+  \ code files, issue tickets, project cards, Scratch projects \u2014 represented\
+  \ as patches in a NetLogo world. It extends the human-only base model STiMUS v2.2,\
+  \ which established that two coordination mechanisms \u2014 stigmergy (indirect\
+  \ coordination through traces left in the environment) and mutualism (mutual benefit\
+  \ between contributors and the artefacts they tend) \u2014 can be decoupled: stigmergy\
+  \ decides where a contributor works, mutualism decides with what effort. STiMUS-HAI\
+  \ preserves this decoupling unchanged and adds two further theoretical questions:\
+  \ whether mixing AI agents into a human team distorts human coordination in ways\
+  \ that aggregate indicators hide, and whether AI's cost to team outcomes depends\
+  \ on the type of work AI performs, not only on how much of it is present.\n\nTwo\
+  \ breeds of turtle \u2014 humans and ai-agents \u2014 follow identical target-selection,\
+  \ pheromone, and mutualism rules, so that any behavioural difference is attributable\
+  \ to team composition rather than a built-in advantage. The one designed asymmetry:\
+  \ AI agents never accumulate shared-mental-model and their motivation is fixed rather\
+  \ than adaptive. On top of this v3.0 baseline, v3.1 adds a task-type dimension to\
+  \ artefacts (\"prediction\" versus \"judgment\", set via a judgment-share slider)\
+  \ that scales down AI edit-power specifically on judgment-requiring artefacts, and\
+  \ an ai-trust mechanic: humans build or lose trust in AI contributions based on\
+  \ the population-relative percentile rank of observed AI work quality (bottom-quartile\
+  \ work counts as an observed \"error\"), and that trust gates how much mutualistic\
+  \ benefit a human derives from continuing an AI's work. Trust erodes quickly on\
+  \ a single error and recovers only after a streak of confirmed successes \u2014\
+  \ an intentional asymmetry.\n"
+authors:
+- affiliation: Moscow City University
+  email: patarakin@gmail.com
+  family-names: Patarakin
+  given-names: Yevgeny
+  orcid: https://orcid.org/0000-0002-1216-5043
+cff-version: 1.2.0
+date-released: '2026-08-20'
+doi: 10.25937/6jh3-8x66
+keywords:
+- mixed teams
+license: GPL-2.0
+message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/patarakin/STiMUS/tree/main/models/STiMUS-HAI_v3.1
+title: "STiMUS-HAI: A Stigmergic\u2013Mutualistic Agent-Based Model of Human-AI Collaboration\
+  \ on Shared Digital Artefacts"
+type: software
+url: https://doi.org/10.25937/6jh3-8x66
+version: 1.1.0
